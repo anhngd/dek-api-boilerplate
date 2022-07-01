@@ -35,3 +35,43 @@ C:\Users\anhnd\Dropbox\PC (3)\Documents\Repos\dek-api-boilerplate\src\Dek.Api\bi
 C:\Users\anhnd\Dropbox\PC (3)\Documents\Repos\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
 C:\Users\anhnd\Dropbox\PC (3)\Documents\Repos\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\anhnd\Dropbox\PC (3)\Documents\Repos\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\refint\Dek.Api.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\appsettings.Development.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\appsettings.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Dek.Api.exe
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Dek.Api.deps.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Dek.Api.runtimeconfig.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Dek.Api.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Dek.Api.pdb
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Humanizer.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Scrutor.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.csproj.AssemblyReference.cache
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.AssemblyInfoInputs.cache
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.AssemblyInfo.cs
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.csproj.CoreCompileInputs.cache
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\staticwebassets.build.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\staticwebassets.development.json
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\scopedcss\bundle\Dek.Api.styles.css
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.csproj.CopyComplete
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\refint\Dek.Api.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.pdb
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\Dek.Api.genruntimeconfig.cache
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\obj\Debug\net6.0\ref\Dek.Api.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Boxed.AspNetCore.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\anhngd\dek-api-boilerplate\src\Dek.Api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll

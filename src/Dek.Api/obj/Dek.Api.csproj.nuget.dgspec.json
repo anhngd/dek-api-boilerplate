@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anhnd\\Dropbox\\PC (3)\\Documents\\Repos\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {}
+    "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anhnd\\Dropbox\\PC (3)\\Documents\\Repos\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {
+    "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anhnd\\Dropbox\\PC (3)\\Documents\\Repos\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
+        "projectUniqueName": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
         "projectName": "Dek.Api",
-        "projectPath": "C:\\Users\\anhnd\\Dropbox\\PC (3)\\Documents\\Repos\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
+        "projectPath": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
         "packagesPath": "C:\\Users\\anhnd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anhnd\\Dropbox\\PC (3)\\Documents\\Repos\\dek-api-boilerplate\\src\\Dek.Api\\obj\\",
+        "outputPath": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\anhnd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anhnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Boxed.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -51,6 +61,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.3.1, )"
             },
             "Swashbuckle.AspNetCore.Filters": {
               "target": "Package",
@@ -75,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
