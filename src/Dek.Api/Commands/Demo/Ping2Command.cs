@@ -4,11 +4,11 @@ namespace Dek.Api.Commands.Demo;
 
 
 
-public class PingCommand
+public class Ping2Command
 {
     public Task<IActionResult> ExecuteAsync(CancellationToken cancellationToken)
     {
         
-        return Task.FromResult<IActionResult>(new OkObjectResult("pong"));
+        return Task.FromResult<IActionResult>(new OkObjectResult("pong 2"));
     }
 }

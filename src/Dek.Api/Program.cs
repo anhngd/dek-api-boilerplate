@@ -6,13 +6,18 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services
+
+builder.Services.AddEndpointsApiExplorer()
     .AddApiDocs()
+    .AddCustomRouting()
     .AddResponseCompression()
     .AddProjectCommands()
     .AddProjectRepositories()
     .AddProjectServices()
-    .AddProjectFilters();
+    .AddProjectFilters()
+    .AddDbConnections(builder.Configuration)
+    .AddAutoMapper(typeof(Program)); 
+    ;
 
 var app = builder.Build();
 

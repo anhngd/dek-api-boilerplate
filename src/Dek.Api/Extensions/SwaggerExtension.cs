@@ -14,7 +14,7 @@ public static class SwaggerExtension
             c.SwaggerDoc("v1",
                 new OpenApiInfo
                 {
-                    Title = "Dek.Api",
+                    Title = "Restful API Boilerplate",
                     Version = "v1.0",
                     Description = "API Boilerplate",
                     Contact = new OpenApiContact
