@@ -1,13 +1,17 @@
 using Dek.Api;
 using Dek.Api.Contexts;
 using Dek.Api.Extensions;
+using Elastic.Apm.NetCoreAll;
 using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseSerilog((ctx, lc) => lc.WriteTo.Console());
+builder.Host.UseSerilog((ctx, lc)
+    => lc.WriteTo.Console()
+        .WriteTo.Seq("http://192.168.1.143:5341")
+    );
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -34,6 +38,8 @@ builder.Services.AddEndpointsApiExplorer()
     ;
 var app = builder.Build();
 
+app.UseAllElasticApm(builder.Configuration);
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -55,6 +61,8 @@ using (var scope = app.Services.CreateScope())
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseSerilogRequestLogging();
 
 
 

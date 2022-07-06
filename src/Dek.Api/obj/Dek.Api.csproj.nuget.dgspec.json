@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/d/anhngd/dek-api-boilerplate/src/Dek.Api/Dek.Api.csproj": {}
+    "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {}
   },
   "projects": {
-    "/mnt/d/anhngd/dek-api-boilerplate/src/Dek.Api/Dek.Api.csproj": {
+    "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/d/anhngd/dek-api-boilerplate/src/Dek.Api/Dek.Api.csproj",
+        "projectUniqueName": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
         "projectName": "Dek.Api",
-        "projectPath": "/mnt/d/anhngd/dek-api-boilerplate/src/Dek.Api/Dek.Api.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/mnt/d/anhngd/dek-api-boilerplate/src/Dek.Api/obj/",
+        "projectPath": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\Dek.Api.csproj",
+        "packagesPath": "C:\\Users\\anhnd\\.nuget\\packages\\",
+        "outputPath": "D:\\anhngd\\dek-api-boilerplate\\src\\Dek.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\anhnd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,6 +47,10 @@
             "Boxed.AspNetCore": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Elastic.Apm.NetCoreAll": {
+              "target": "Package",
+              "version": "[1.16.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -92,6 +98,10 @@
               "target": "Package",
               "version": "[5.0.0, )"
             },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
             "StackExchange.Redis": {
               "target": "Package",
               "version": "[2.6.48, )"
@@ -127,7 +137,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
