@@ -1,16 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{286A5228-4E26-4FCE-BAB0-73961441718C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dek.Api", "src\Dek.Api\Dek.Api.csproj", "{C131A60B-98C0-457B-A76D-0A9949A7BFFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dek.Api", "src\Dek.Api\Dek.Api.csproj", "{C131A60B-98C0-457B-A76D-0A9949A7BFFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2A0DCF33-BB2C-440C-8B7D-5DA867427BDD}"
+	ProjectSection(SolutionItems) = preProject
+		tests\test-create-user.js = tests\test-create-user.js
+		tests\test-get-user.js = tests\test-get-user.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82757A74-87A4-4689-8428-D0C0DE244C2C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -18,10 +35,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C131A60B-98C0-457B-A76D-0A9949A7BFFA} = {286A5228-4E26-4FCE-BAB0-73961441718C}
 	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C131A60B-98C0-457B-A76D-0A9949A7BFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E6EE56-F793-4B25-8A32-0165C85535B6}
 	EndGlobalSection
 EndGlobal

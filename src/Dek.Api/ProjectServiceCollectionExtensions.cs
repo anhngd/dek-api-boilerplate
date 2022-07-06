@@ -9,6 +9,7 @@ internal static class ProjectServiceCollectionExtensions
             .AddScoped<Commands.Demo.PingCommand>()
             .AddScoped<Commands.Demo.Ping2Command>()
             .AddScoped<Commands.Demo.CreateUserCommand>()
+            .AddScoped<Commands.Demo.GetUserCommand>()
         ;
     
     public static IServiceCollection AddProjectRepositories(this IServiceCollection services) =>

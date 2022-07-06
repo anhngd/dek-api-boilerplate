@@ -4,19 +4,30 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d8c3b47a-e9e2-4fcb-960a-aa376f991d7c</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Boxed.AspNetCore" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
+    <PackageReference Include="Serilog" Version="2.11.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="4.0.1" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
     <PackageReference Include="StackExchange.Redis" Version="2.6.48" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />

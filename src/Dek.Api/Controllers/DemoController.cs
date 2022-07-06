@@ -6,10 +6,9 @@ using Swashbuckle.AspNetCore.Annotations;
 
 namespace Dek.Api.Controllers;
 
+[Route("api/v{version:apiVersion}/[controller]")]
 [ApiController]
 [ApiVersion(ApiVersionName.V1)]
-[ApiVersion(ApiVersionName.V2)]
-[Route("api/v{version:apiVersion}/[controller]")]
 [SwaggerResponse(
     StatusCodes.Status500InternalServerError,
     "The MIME type in the Accept HTTP header is not acceptable.",
